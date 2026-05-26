@@ -27,12 +27,12 @@ const Index: FC<Props> = () => {
         <button
           type="button"
           onClick={() => setIsActive(!isActive)}
-          className="flex h-[4.5vw] w-[4.5vw] cursor-pointer items-center justify-center rounded-full bg-stone-400">
+          className="flex h-[4.5vw] w-[4.5vw] md:h-[12vw] md:w-[12vw] cursor-pointer items-center justify-center rounded-full bg-stone-400 transition-colors hover:bg-stone-300">
           <div className={`burger ${isActive && 'burgerActive'}`}></div>
         </button>
       </div>
       <button title="your_agency_name" className="p-[2vw] fixed z-[100] top-0 left-0 group">
-        <LogoIcon className="w-[5vw] h-[5vw] group-hover:text-white/80 transition duration-300" />
+        <LogoIcon className="w-[5vw] h-[5vw] md:w-[12vw] md:h-[12vw] group-hover:text-white/80 transition duration-300" />
       </button>
       <AnimatePresence mode="wait">{isActive && (
         <SidebarMenu close={closeSidebar} />

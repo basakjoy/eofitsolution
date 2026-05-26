@@ -33,13 +33,13 @@ const Hero = () => {
       >
         <motion.h1
           ref={heading1}
-          className="relative z-20 mt-[-5vw] w-full text-center text-[4.5vw] md:text-[6vw] md:leading-[1.2] font-extrabold text-text-1 max-w-[95%]"
+          className="relative z-20 mt-[-5vw] w-full text-center text-[7vw] md:text-[10vw] md:leading-[1.2] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-text-1 to-primary max-w-[95%] drop-shadow-lg"
           style={{ opacity }}
         >
           EOF IT Solutions
         </motion.h1>
-        <motion.h2 ref={heading2} className="z-20 text-[1.7vw] md:text-[3vw] font-medium text-text-1/7 5" style={{ opacity }} >
-          Connect- Create- Grow
+        <motion.h2 ref={heading2} className="z-20 text-[2vw] md:text-[4vw] font-medium text-text-1/80 mt-2 tracking-wide" style={{ opacity }} >
+          Connect - Create - Grow
         </motion.h2>
         <div ref={ref1} className={`absolute left-0 top-0 z-10 h-full w-full`}>
           <Image src={main_1} fill={true} alt="" className='' objectFit="cover" />

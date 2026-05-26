@@ -43,14 +43,14 @@ const Index: FC<Props> = ({ cards, itemClasses, wrapperClasses }) => {
           </AnimatePresence>
           <div
             className={cn(
-              'z-[1] h-full min-w-[18vw] space-y-[1.2vw] rounded-[1vw] border-[0.2vw] border-stroke px-[1.4vw] py-[1.6vw] md:min-w-full',
+              'z-[1] h-full min-w-[18vw] space-y-[1.2vw] rounded-[1vw] border-[0.1vw] border-stroke px-[2vw] py-[2.5vw] md:min-w-full md:space-y-[3vw] md:px-[4vw] md:py-[5vw] md:rounded-[2vw] transition-colors duration-300 hover:border-primary/50 bg-bg-2/30 backdrop-blur-sm',
             )}
           >
-            <div className="flex items-center space-x-[0.6vw]">
+            <div className="flex items-center space-x-[1vw] md:space-x-[3vw] mb-[1vw] md:mb-[3vw]">
               {<card.icon />}
-              <h6 className="text-[1.6vw] md:text-[3.5vw] md:tracking-tight">{card.title}</h6>
+              <h6 className="text-[1.8vw] md:text-[5vw] font-semibold text-text-1">{card.title}</h6>
             </div>
-            <p className="text-[1vw] md:text-[2.25vw] font-light leading-[1.5] md:leading-[1.2] md:tracking-tight">{card.description}</p>
+            <p className="text-[1.1vw] md:text-[3.5vw] font-light leading-[1.7] md:leading-[1.6] text-text-1/80">{card.description}</p>
           </div>
         </div>
       ))}

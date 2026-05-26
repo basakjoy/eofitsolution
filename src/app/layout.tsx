@@ -2,10 +2,10 @@
 
 import Lenis from 'lenis';
 
-import { Montserrat } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import { useEffect, useState } from 'react';
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+const poppins = Poppins({ subsets: ['latin'], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] });
 
 import '@/shared/styles/globals.scss';
 
@@ -36,7 +36,7 @@ export default function RootLayout({
   }, []);
   return (
     <html lang="ru">
-      <body className={montserrat.className}>
+      <body className={poppins.className}>
         <main>
           {children}
         </main>
