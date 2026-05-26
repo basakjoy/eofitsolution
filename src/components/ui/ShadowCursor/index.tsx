@@ -1,8 +1,8 @@
-'use client'
+'use client';
 
 import { FC, useEffect } from 'react';
 
-import initCursor from '@/shared/utils/useShadowCursor'
+import initCursor from '@/shared/utils/useShadowCursor';
 
 interface Props { }
 

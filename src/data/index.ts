@@ -25,7 +25,7 @@ export const NAV_ITEMS = [
 
 export const CARDS = [
   {
-    title: 'Maeketing & Branding',
+    title: 'Marketing & Branding',
     description:
       'We help businesses grow through smart marketing strategies, digital advertising, and creative branding solutions.',
     services: [
@@ -50,7 +50,7 @@ export const CARDS = [
     title: 'Agro Firm',
     description:
       'EOF Agro is committed to providing fresh agro products and supporting modern agriculture for a better future. ',
-    services: [['Organic Farming', 'Crop Production'], ['Fresh Food Supply', 'Agricultural Products Supplyg']],
+    services: [['Organic Farming', 'Crop Production'], ['Fresh Food Supply', 'Agricultural Products Supply']],
     number: '03.',
     classes: 'border-t border-gray-1/50',
   },
@@ -168,9 +168,9 @@ export const RADIO_FIELDS = [
     classes: '',
     radioArray: [
       { name: 'As fast as possible', value: 'max-fast' },
-      { name: 'High priority ', value: 'high-prio ' },
+      { name: 'High priority', value: 'high-prio' },
       { name: 'Regular time', value: 'regular' },
-      { name: 'Take your time ', value: 'take-your-time' },
+      { name: 'Take your time', value: 'take-your-time' },
     ],
     formKey: '_quickness',
     
@@ -187,7 +187,7 @@ export const RADIO_FIELDS = [
     formKey: '_pages',
   },
   {
-    title: 'How Fast Delevary do you need and where?',
+    title: 'How Fast Delivery do you need and where?',
     classes: '',
     radioArray: [
       { name: 'Express Delivery', value: 'Express-Delivery' },
