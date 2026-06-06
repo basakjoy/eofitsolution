@@ -30,7 +30,7 @@ export const CARDS = [
       'We help businesses grow through smart marketing strategies, digital advertising, and creative branding solutions.',
     services: [
       ['Market research', 'Branding'],
-      ['Advertising', 'SMM', 'SEO',],
+      ['Advertising', 'SMM'],
     ],
     number: '01.',
     classes: '',
@@ -47,14 +47,6 @@ export const CARDS = [
     classes: 'border-t border-gray-1/50',
   },
   {
-    title: 'Agro Firm',
-    description:
-      'EOF Agro is committed to providing fresh agro products and supporting modern agriculture for a better future. ',
-    services: [['Organic Farming', 'Crop Production'], ['Fresh Food Supply', 'Agricultural Products Supply']],
-    number: '03.',
-    classes: 'border-t border-gray-1/50',
-  },
-  {
     title: 'Import-Export',
     description:
       'We facilitate international trade by importing quality products and exporting goods to global markets. ',
@@ -62,7 +54,7 @@ export const CARDS = [
       ['Importing Goods', 'Product Distribution'],
       ['Supplier & Buyer Coordination', 'International Product Sourcing'],
     ],
-    number: '04.',
+    number: '03.',
     classes: 'border-t border-gray-1/50',
   },
   {
@@ -73,7 +65,7 @@ export const CARDS = [
       ['Web Design & Development', 'Video Editing'],
       ['App Development', 'Graphic Design'],
     ],
-    number: '05.',
+    number: '04.',
     classes: 'border-t border-gray-1/50',
   },
    {
@@ -81,10 +73,9 @@ export const CARDS = [
     description:
       'A computer training center helps students learn essential computer and IT skills for education and employment.',
     services: [
-      ['Basic Computer Training', 'Graphic Design Course'],
-      ['Freelancing Training', 'Programming Courses', 'Digital Marketing Training'],
+      ['Basic Computer Training', 'Graphic Design Course'], [ 'Programming Courses', 'Digital Marketing Training'],
     ],
-    number: '06.',
+    number: '05.',
     classes: 'border-t border-gray-1/50',
   },
 ];
